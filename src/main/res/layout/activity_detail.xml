@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="30dp"
+        android:textColor="#213346"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/dimage"
+        android:layout_width="350dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vw"
+        />
+    <TextView
+        android:id="@+id/ddesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper diam at elementum maximus. Cras sodales, tellus a dignissim tempus, tellus dui imperdiet dolor, sit amet imperdiet est tortor nec libero. Pellentesque orci nunc, pulvinar at ullamcorper ut, pretium in ipsum. Donec sit amet fringilla nisi. Etiam eu quam porttitor, faucibus odio et, molestie velit"
+        android:maxLines="6"
+        android:textColor="#3A4B5C"
+        android:layout_marginTop="16sp"
+        android:textAlignment="textStart"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        />
+    <TextView
+        android:id="@+id/dprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price : Rp. -"
+        android:textSize="20dp"
+        android:layout_marginStart="16sp"
+        android:textColor="#03A9F4"
+        />
+
+</LinearLayout>
